@@ -18,6 +18,12 @@ export default function Calculator(){
         })
     }
 
+    function deleteCost(id) {
+        setCostlist(currentcost => {
+            return currentcost.filter(cost => cost.id !== id)
+        })
+    }
+
     console.log(costlist)
 
     return(
@@ -42,17 +48,21 @@ export default function Calculator(){
 
                 <button>hinzufügen</button>
             </form>
+            <h1>Liste</h1>
             <ul>
+                
                 <li>
                     <label>TEST</label>
+                    <button>Löschen</button>
                 </li>
+                {costlist.length === 0 && "Keine Kosten"}
                 {costlist.map(cost => {
                     return(
                     <li key={cost.id}>
                         <label>
                             {cost.name}
                         </label>
-                        <button>Löschen</button>
+                        <button onClick={() => deleteCost(cost.id)}>Löschen</button>
                     </li>
                     )
                 })}
