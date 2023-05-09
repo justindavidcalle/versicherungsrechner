@@ -1,4 +1,5 @@
 import Calculator from "../components/calculator";
+import "../css/main.css"
 
 
 export default function Main(){

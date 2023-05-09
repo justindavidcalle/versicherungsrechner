@@ -1,22 +1,24 @@
 import { useState } from "react"
+import { InsuranceForm } from "./InsuranceForm"
 
 
 export default function Calculator(){
 
-    const [insuranceName, setInsuranceName] = useState('')
     const [costlist, setCostlist] = useState([])
 
-    function makelist(e){
-        e.preventDefault()
-        
+    function addCost(name, price, option) {
         setCostlist(currentcost => {
             return[
                 ...currentcost, 
                     {id: crypto.randomUUID(), 
-                    name: insuranceName} 
+                    name,
+                    price,
+                    option} 
             ]
         })
     }
+    
+   
 
     function deleteCost(id) {
         setCostlist(currentcost => {
@@ -27,40 +29,26 @@ export default function Calculator(){
     console.log(costlist)
 
     return(
+        
         <div id="calculator">
-            <h1>Versicherungsrechner</h1>
-            <form onSubmit={makelist}>
-                <h2>Versicherungsname</h2>
-                <input 
-                value={insuranceName} 
-                onChange={e => setInsuranceName(e.target.value)} 
-                type="text" 
-                placeholder="Name der Firma"/>
-                <h2>Preis</h2>
-                <input type="number" placeholder="Beträge die sie bezahlen" min="0"/>
-                <h2>Monatlich/Jährlich</h2>
-                <label>
-                    <select>
-                        <option>Monatlich</option>
-                        <option>Jährlich</option>
-                    </select>
-                </label>
-
-                <button>hinzufügen</button>
-            </form>
+            <InsuranceForm onSubmit={addCost}/>
             <h1>Liste</h1>
             <ul>
-                
-                <li>
-                    <label>TEST</label>
-                    <button>Löschen</button>
-                </li>
                 {costlist.length === 0 && "Keine Kosten"}
                 {costlist.map(cost => {
                     return(
                     <li key={cost.id}>
                         <label>
+                            <h3>Versicherungsname:</h3>
                             {cost.name}
+                        </label>
+                        <label >
+                            <h3>Kosten:</h3>
+                            {cost.price}
+                        </label>
+                        <label>
+                            <h3>Zahlungswiederholung:</h3>
+                            {cost.option}
                         </label>
                         <button onClick={() => deleteCost(cost.id)}>Löschen</button>
                     </li>
