@@ -49,6 +49,10 @@ body{
 
 }
 
+#logo{
+    height: 3rem;
+}
+
 .nav li:hover{
     background-color: #777;
 }
