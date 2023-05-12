@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Dokumentation Versicherungsrechner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+| Bezeichnung    | Angaben        |
+| -------------- | ---------------|
+| Autor:        | Justin Calle          |
+| Schule:       | BBW                   |
+| Modul:        | Projektmodul          |     
+| Lehrperson:   | Peter Rutschmann      |
+| Zeitraum      | 17.03.23 - 12.05.23   |
+| Git-Repo-URL  | [Repository](https://github.com/justindavidcalle/versicherungsrechner) |
 
-## Available Scripts
+---
+## Einleitung
 
-In the project directory, you can run:
+Wir haben den Auftrag bekommen im Zeitraum von 24.03.2023 bis 12.05.2023 ein Projekt zu realisieren, indem es um einen Versicherungsrechner geht. Man ist in der Rolle eines Entwicklers und Ziel ist es, für seinen Vorgesetzter einen Versicherungsrechner zu erstellen. Dies ist ein sehr offene Anweisung und nun sollen wir ihm die Idee des Projektes erklären, um ihn zufriedenzustellen. Unser Vorgesetzter ist in unserem Projekt unseren Lehrer "Herr Rutschmann".
 
-### `npm start`
+### Meine Idee
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Als erstes habe ich im Internet nachgeschaut, was es für verschiedene Konzeptionen gibt. Ich entdeckte viele Rechner, welche die Versicherungsprämie berechnet, jedoch hat unser Vorgesetzter uns mitgeteilt, dass dies sehr schwierig werden könne, da dies mit Verbindungen von anderen Websites in Verbindung kommt und sich diese Werte auch immer wieder ändern.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Ich habe den Vorschlag gebracht, mit einem Systemkonzept und Keyscreen, den Versicherungsrechner so zu gestalten, sodass der Nutzer eine Übersicht über seine Kosten hat innerhalb eines Jahres. Einen Versicherungsrechner ist es, weil es die ganzen Kosten zusammenrechnet und dies monatlich, sowie au jährlich.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Umsetzung
+Während der Umsetzung habe ich mich hauptsächlich auf die Applikation fokussiert. Nebenbei habe ich meine Planung verfolgt und aktualisiert, dies habe ich mit einem Markdownfile umgesetzt. Die Planung habe ich grob erstellt, um Zeit zu sparen.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Reflexion
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Dieses Projekt war relativ gross und ich bin mit meinem Endprodukt der Applikation nicht ganz zufrieden, da ich nicht so weit gekommen bin, wie ich es mir zu Beginn vorgestellt hatte. Jedoch aber bin ich sehr froh, die Möglichkeit bekommen zu haben, ein solches Reactprojekt zu erstellen. Ich habe sehr viel neues gelernt. Zusätzlich hatten wir ein weiteres Projekt, bei welchem wir React nutzten. So lag der Fokus sehr stark auf dieses Entwicklungskonzept mit Javascript. 
 
-### `npm run eject`
+Die dazu genutzte zeitliche Planung und Vorgehen brachten mir eine Schwierigkeiten mit sich. Ich bin eine eher spontane Person und ich bin mir dessen Bewusst, dass dies nicht sonderlich gut ist in der Arbeitswelt. Die Planung konnte ich umsetzen, jedoch war ich nicht fähig alles umzusetzen und auch mit dem CSS kam ich zeitlich nicht genügend schnell voran. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Grundsätzlich bin ich zufrieden mit meiner Webseite. Es gibt noch einige kleine Details, 
+die mich stören, welche ich jedoch nicht mehr beheben konnte aus zeitlichen Gründen. Auch war das Planungskonzept nicht detailliert gewesen, welches mir vielleicht stolpersteine mit sich brachte. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Quellen
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Logo: 
+https://www.flaticon.com/
+Keyscreen wurde mit Figma erstellt:
+www.figma.com/
+Programmierumgebung:
+Visual Studio Code
+Lernquellen:
+https://www.youtube.com/@WebDevSimplified

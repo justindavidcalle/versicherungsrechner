@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Main from './pages/main';
+import Navbar from './components/Navbar';
+import Contactform from './pages/contactform';
+import Imprint from './pages/imprint';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Navbar/>
+    <div className='container'>
+      <Routes>
+      <Route path="/" element={<Main/>} />
+      <Route path="/contactform" element={<Contactform/>} />
+      <Route path="/imprint" element={<Imprint/>} />
+      </Routes>
     </div>
+    </>
   );
 }
 
