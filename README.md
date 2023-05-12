@@ -36,3 +36,16 @@ Die dazu genutzte zeitliche Planung und Vorgehen brachten mir eine Schwierigkeit
 
 Grundsätzlich bin ich zufrieden mit meiner Webseite. Es gibt noch einige kleine Details, 
 die mich stören, welche ich jedoch nicht mehr beheben konnte aus zeitlichen Gründen. Auch war das Planungskonzept nicht detailliert gewesen, welches mir vielleicht stolpersteine mit sich brachte. 
+
+---
+
+## Quellen
+
+Logo: 
+https://www.flaticon.com/
+Keyscreen wurde mit Figma erstellt:
+www.figma.com/
+Programmierumgebung:
+Visual Studio Code
+Lernquellen:
+https://www.youtube.com/@WebDevSimplified

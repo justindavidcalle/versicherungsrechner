@@ -52,12 +52,29 @@
 ## Vorgehensmethode
 
 Als Vorgehensmethode habe ich IPERKA verwendet. 
+* [ ] Informieren
+* [ ] Planen
+* [ ] Realisieren
+* [ ] Kontrollieren
+* [ ] Auswerten
+
 
 ---
 
 ## Gui entwerfen
-* [ ] Problem Statement
-* [ ] Userstory
-* [ ] Keyscreen
+Liegt unter Gui-Ideen.md und ist verlinkt mit einem Miro-Board.
+* [x] Problem Statement
+* [x] Userstory
+* [x] Keyscreen
+
+## Systemkonzept entwerfen
+* [x] Systemkonzept
+
+Ist ebenfalls im Miro-Board vorhanden und wurde gleichzeitig wie GUI-Ideen entwickelt. Da es aber nicht zum Interface gehört habe ich es nochmals einzels aufgelistet
+
+
+![System](/src/images/Systemkonzept.png "Systemkonzept")
+
+
 
 
