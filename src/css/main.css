@@ -56,3 +56,129 @@ body{
 .nav li:hover{
     background-color: #777;
 }
+
+#calculator {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+  }
+  
+  .listOfInsurances {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #4f36f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #200e95;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+
+
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #list li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    background-color: #d4dbf4;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  
+  #list h3 {
+    margin: 0;
+    font-size: 13px;
+    position: relative;
+  }
+  
+  #list h3::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 150px;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  #list label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+  }
+  
+  #list .payment-label {
+    align-self: flex-start;
+  }
+  
+  #list button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #list button:hover {
+    background-color: #d32f2f;
+  }
+  
+  #list button:focus {
+    outline: none;
+  }
+  
