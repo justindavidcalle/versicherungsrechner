@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Main from './pages/main';
 import Navbar from './components/Navbar';
-import Pricing from './pages/pricing';
+import Contactform from './pages/contactform';
 import Imprint from './pages/imprint';
 import { Route, Routes } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ function App() {
     <div className='container'>
       <Routes>
       <Route path="/" element={<Main/>} />
-      <Route path="/pricing" element={<Pricing/>} />
+      <Route path="/contactform" element={<Contactform/>} />
       <Route path="/imprint" element={<Imprint/>} />
       </Routes>
     </div>

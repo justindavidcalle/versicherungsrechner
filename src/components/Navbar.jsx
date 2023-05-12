@@ -11,7 +11,7 @@ export default function Navbar(){
             </Link>
             <ul>
 
-                <CustomLink to="/pricing">Pricing</CustomLink>
+                <CustomLink to="/contactform">Kontaktformular</CustomLink>
                 <CustomLink to="/imprint">Impressum</CustomLink>
             </ul>
         </nav>
